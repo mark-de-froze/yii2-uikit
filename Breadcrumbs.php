@@ -9,7 +9,7 @@ use yii\helpers\Html;
  * @package frontend\widgets
  * @see http://schema.org/BreadcrumbList
  */
-class Breadcrumbs extends \worstinme\uikit\Breadcrumbs
+class Breadcrumbs extends \yii\widgets\Breadcrumbs
 {
     public $options = ['class' => 'uk-breadcrumb', 'itemscope itemtype' => "http://schema.org/BreadcrumbList"];
     public $encodeLabels = false;
