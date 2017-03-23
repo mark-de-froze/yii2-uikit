@@ -9,12 +9,12 @@ Installation of Yii2 Uikit Extension
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Just run
 
 ```
-php composer.phar require --prefer-dist worstinme/yii2-uikit
+php composer.phar require --prefer-dist ilyaplot/yii2-uikit
 ```
 or add
 
 ```
-"worstinme/yii2-uikit": "*"
+"ilyaplot/yii2-uikit": "*"
 ```
 to the require section of your `composer.json` file.
 
