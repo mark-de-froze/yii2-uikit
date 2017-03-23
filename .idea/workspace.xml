@@ -97,8 +97,8 @@
       <file leaf-file-name="UikitAsset.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UikitAsset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -261,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490260895603</updated>
       <workItem from="1490260897355" duration="4727000" />
-      <workItem from="1490273632142" duration="20000" />
+      <workItem from="1490273632142" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4747000" />
+    <option name="totallyTimeSpent" value="5354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -714,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UikitAsset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>

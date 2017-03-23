@@ -11,11 +11,11 @@ class UikitAsset extends AssetBundle
 
     public $css = [
         'css/uikit.min.css',
-        'css/uikit-icons.min.js',
     ];
 
     public $js = [
         'js/uikit.min.js',
+        'js/uikit-icons.min.js',
     ];
 
     public $depends = [
