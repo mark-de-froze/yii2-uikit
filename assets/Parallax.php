@@ -8,13 +8,9 @@ class Parallax extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/parallax.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

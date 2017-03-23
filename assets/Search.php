@@ -8,13 +8,9 @@ class Search extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/search.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/search.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\assets\Autocomplete',

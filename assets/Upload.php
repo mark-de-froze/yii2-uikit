@@ -8,15 +8,9 @@ class Upload extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/placeholder.min.css',
-        'css/components/progress.min.css',
-        'css/components/form-file.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/upload.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

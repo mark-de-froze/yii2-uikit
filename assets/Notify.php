@@ -8,13 +8,9 @@ class Notify extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/notify.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/notify.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

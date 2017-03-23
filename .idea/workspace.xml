@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45d76a3c-a329-4775-8507-fd75cc113a9f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/accordion.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/accordion.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/accordion.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/accordion.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/accordion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/autocomplete.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/autocomplete.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/autocomplete.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/autocomplete.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/autocomplete.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/datepicker.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/datepicker.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/datepicker.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/datepicker.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/dotnav.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/dotnav.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/dotnav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/dotnav.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/dotnav.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/dotnav.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-advanced.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-advanced.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-advanced.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-advanced.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-advanced.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-advanced.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-file.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-file.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-file.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-file.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-file.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-file.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-password.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-password.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-password.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-password.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-password.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-password.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-select.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-select.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-select.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-select.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-select.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/form-select.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/htmleditor.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/htmleditor.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/htmleditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/htmleditor.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/htmleditor.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/htmleditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/nestable.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/nestable.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/nestable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/nestable.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/nestable.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/nestable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/notify.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/notify.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/notify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/notify.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/notify.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/notify.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/placeholder.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/placeholder.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/placeholder.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/placeholder.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/placeholder.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/placeholder.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/progress.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/progress.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/progress.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/progress.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/progress.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/progress.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/search.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/search.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/search.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/search.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/search.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slidenav.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slidenav.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slidenav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slidenav.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slidenav.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slidenav.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slider.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slider.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slider.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slider.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slideshow.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slideshow.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slideshow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slideshow.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slideshow.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/slideshow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sortable.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sortable.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sortable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sortable.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sortable.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sortable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sticky.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sticky.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sticky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sticky.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sticky.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/sticky.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/tooltip.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/tooltip.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/tooltip.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/tooltip.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/tooltip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/upload.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/upload.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/upload.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/upload.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/upload.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/components/upload.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/uikit.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/uikit.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/uikit.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/css/uikit.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/autocomplete.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/form-password.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/form-password.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/form-select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/form-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/grid-parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/grid-parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/grid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/htmleditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/htmleditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/lightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/lightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/nestable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/notify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/notify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/pagination.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/search.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slideset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slideset.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slideshow-fx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slideshow-fx.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slideshow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/slideshow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/sticky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/components/upload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/alert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/button.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/cover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/cover.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/dropdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/grid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/modal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/nav.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/offcanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/scrollspy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/smooth-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/smooth-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/switcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/switcher.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/tab.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/toggle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/touch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/utility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uikit/js/core/utility.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Breadcrumbs.php" afterPath="$PROJECT_DIR$/Breadcrumbs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UikitAsset.php" afterPath="$PROJECT_DIR$/UikitAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Accordion.php" afterPath="$PROJECT_DIR$/assets/Accordion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Autocomplete.php" afterPath="$PROJECT_DIR$/assets/Autocomplete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Datepicker.php" afterPath="$PROJECT_DIR$/assets/Datepicker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/DinamicGrid.php" afterPath="$PROJECT_DIR$/assets/DinamicGrid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/FormSelect.php" afterPath="$PROJECT_DIR$/assets/FormSelect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/GridParallax.php" afterPath="$PROJECT_DIR$/assets/GridParallax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Lightbox.php" afterPath="$PROJECT_DIR$/assets/Lightbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Nestable.php" afterPath="$PROJECT_DIR$/assets/Nestable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/NestableFlat.php" afterPath="$PROJECT_DIR$/assets/NestableFlat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Notify.php" afterPath="$PROJECT_DIR$/assets/Notify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/NotifyFlat.php" afterPath="$PROJECT_DIR$/assets/NotifyFlat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Parallax.php" afterPath="$PROJECT_DIR$/assets/Parallax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Password.php" afterPath="$PROJECT_DIR$/assets/Password.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Search.php" afterPath="$PROJECT_DIR$/assets/Search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Slider.php" afterPath="$PROJECT_DIR$/assets/Slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Slideset.php" afterPath="$PROJECT_DIR$/assets/Slideset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Slideshow.php" afterPath="$PROJECT_DIR$/assets/Slideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Sticky.php" afterPath="$PROJECT_DIR$/assets/Sticky.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Timepicker.php" afterPath="$PROJECT_DIR$/assets/Timepicker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Tooltip.php" afterPath="$PROJECT_DIR$/assets/Tooltip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Upload.php" afterPath="$PROJECT_DIR$/assets/Upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/css/uikit.css" afterPath="$PROJECT_DIR$/uikit/css/uikit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/css/uikit.min.css" afterPath="$PROJECT_DIR$/uikit/css/uikit.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/js/uikit.js" afterPath="$PROJECT_DIR$/uikit/js/uikit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/js/uikit.min.js" afterPath="$PROJECT_DIR$/uikit/js/uikit.min.js" />
+    </list>
+    <ignored path="yii2-uikit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yii2-uikit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ActiveForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ActiveForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-457">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AliasBehavior.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AliasBehavior.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Breadcrumbs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Breadcrumbs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Captcha.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Captcha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nav.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-969">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavBar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NavBar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UikitAsset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UikitAsset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Widget.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/Breadcrumbs.php" />
+        <option value="$PROJECT_DIR$/assets/GridParallax.php" />
+        <option value="$PROJECT_DIR$/assets/Accordion.php" />
+        <option value="$PROJECT_DIR$/assets/Autocomplete.php" />
+        <option value="$PROJECT_DIR$/assets/Datepicker.php" />
+        <option value="$PROJECT_DIR$/assets/DinamicGrid.php" />
+        <option value="$PROJECT_DIR$/assets/FormSelect.php" />
+        <option value="$PROJECT_DIR$/assets/Lightbox.php" />
+        <option value="$PROJECT_DIR$/assets/Nestable.php" />
+        <option value="$PROJECT_DIR$/assets/NestableFlat.php" />
+        <option value="$PROJECT_DIR$/assets/Notify.php" />
+        <option value="$PROJECT_DIR$/assets/NotifyFlat.php" />
+        <option value="$PROJECT_DIR$/assets/Parallax.php" />
+        <option value="$PROJECT_DIR$/assets/Password.php" />
+        <option value="$PROJECT_DIR$/assets/Search.php" />
+        <option value="$PROJECT_DIR$/assets/Slider.php" />
+        <option value="$PROJECT_DIR$/assets/Slideset.php" />
+        <option value="$PROJECT_DIR$/assets/Slideshow.php" />
+        <option value="$PROJECT_DIR$/assets/Sticky.php" />
+        <option value="$PROJECT_DIR$/assets/Timepicker.php" />
+        <option value="$PROJECT_DIR$/assets/Tooltip.php" />
+        <option value="$PROJECT_DIR$/assets/Upload.php" />
+        <option value="$PROJECT_DIR$/UikitAsset.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-uikit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45d76a3c-a329-4775-8507-fd75cc113a9f" name="Default" comment="" />
+      <created>1490260895603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490260895603</updated>
+      <workItem from="1490260897355" duration="679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="679000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="73">
+            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Accordion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Autocomplete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Datepicker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/DinamicGrid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/FormSelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/GridParallax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Lightbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Nestable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/NestableFlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Notify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/NotifyFlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Parallax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Slideset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Sticky.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Timepicker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Tooltip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AliasAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/views/slideset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/views/slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/ActionColumn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/GridView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/LinkPager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/ListView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/Slideset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActiveField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActiveForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AliasBehavior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NavBar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UikitAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

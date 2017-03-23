@@ -8,13 +8,9 @@ class Sticky extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/sticky.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/sticky.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

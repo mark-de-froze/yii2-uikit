@@ -8,13 +8,9 @@ class NestableFlat extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/nestable.almost-flat.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/nestable.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

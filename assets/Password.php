@@ -8,13 +8,9 @@ class Password extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/form-password.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/form-password.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

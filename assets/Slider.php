@@ -8,15 +8,9 @@ class Slider extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/slidenav.min.css',
-        'css/components/slider.min.css',
-        'css/components/dotnav.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/slider.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

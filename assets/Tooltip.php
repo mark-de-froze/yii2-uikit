@@ -8,13 +8,9 @@ class Tooltip extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/tooltip.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/tooltip.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',

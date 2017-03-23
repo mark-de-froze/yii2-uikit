@@ -11,11 +11,10 @@ class UikitAsset extends AssetBundle
 
     public $css = [
         'css/uikit.min.css',
-        'css/components/form-advanced.min.css',
     ];
 
     public $js = [
-        'js/uikit.js',
+        'js/uikit.min.js',
     ];
 
     public $depends = [

@@ -8,13 +8,9 @@ class Datepicker extends AssetBundle
 {
     public $sourcePath = '@worstinme/uikit/uikit';
 
-    public $css = [
-        'css/components/datepicker.min.css',
-    ];
+    public $css = [];
 
-    public $js = [
-        'js/components/datepicker.min.js',
-    ];
+    public $js = [];
 
     public $depends = [
         'worstinme\uikit\UikitAsset',
