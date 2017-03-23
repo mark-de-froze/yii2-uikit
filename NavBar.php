@@ -43,7 +43,7 @@ class NavBar extends Widget
     {
         parent::init();
         $this->clientOptions = false;
-        Html::addCssClass($this->options, 'uk-navbar');
+        Html::addCssClass($this->options, 'uk-navbar-container');
 
         if (empty($this->options['role'])) {
             $this->options['role'] = 'navigation';
@@ -54,13 +54,15 @@ class NavBar extends Widget
             echo Html::beginTag('div', ['class'=>'uk-container uk-container-center']);
         }
 
+        echo Html::beginTag('div', ['class' => 'uk-navbar-left']);
+
         if ($this->offcanvas) {
             echo Html::a('','#'.($this->offcanvas === true ? 'offcanvas' : $this->offcanvas),
                 ['class'=>'uk-navbar-toggle uk-visible-small','data-uk-offcanvas'=>true]);
         }
 
         if ($this->brandLabel !== false) {
-            Html::addCssClass($this->brandOptions, ['widget' => 'uk-navbar-brand']);
+            Html::addCssClass($this->brandOptions, ['widget' => 'uk-navbar-item uk-logo']);
             echo Html::a($this->brandLabel, $this->brandUrl === false ? Yii::$app->homeUrl : $this->brandUrl, $this->brandOptions);
         }
     }
@@ -69,10 +71,12 @@ class NavBar extends Widget
      */
     public function run()
     {
-        
+
         if ($this->container) {
             echo Html::endTag('div');
-        } 
+        }
+
+        echo Html::endTag('div');
         echo Html::endTag('nav');
     }
 }
