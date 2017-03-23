@@ -28,7 +28,7 @@ class Nav extends Widget
 
     public $containerOptions = [];
 
-    public $navClass = 'uk-nav';
+    public $navClass = 'uk-navbar-nav';
 
     /**
      * Initializes the widget.
