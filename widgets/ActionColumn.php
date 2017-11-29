@@ -16,8 +16,9 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'title' => Yii::t('yii', 'View'),
                     'aria-label' => Yii::t('yii', 'View'),
                     'data-pjax' => '0',
+                    'uk-icon' => 'icon: link'
                 ], $this->buttonOptions);
-                return Html::a('<i class="uk-icon-eye"></i>', $url, $options);
+                return Html::a(null, $url, $options);
             };
         }
         if (!isset($this->buttons['update'])) {
@@ -26,8 +27,9 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'title' => Yii::t('yii', 'Update'),
                     'aria-label' => Yii::t('yii', 'Update'),
                     'data-pjax' => '0',
+                    'uk-icon' => 'icon: file-edit'
                 ], $this->buttonOptions);
-                return Html::a('<i class="uk-icon-pencil"></i>', $url, $options);
+                return Html::a(null, $url, $options);
             };
         }
         if (!isset($this->buttons['delete'])) {
@@ -38,8 +40,9 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'data-confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
                     'data-method' => 'post',
                     'data-pjax' => '0',
+                    'uk-icon' => 'icon: trash'
                 ], $this->buttonOptions);
-                return Html::a('<i class="uk-icon-trash"></i>', $url, $options);
+                return Html::a(null, $url, $options);
             };
         }
     }

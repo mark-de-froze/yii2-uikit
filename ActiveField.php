@@ -13,6 +13,8 @@ class ActiveField extends \yii\widgets\ActiveField
 
 	public $options = ['class' => 'uk-form-row'];
 
+	public $inputOptions = ['class' => 'uk-input'];
+
 	public $errorOptions = ['class' => 'uk-form-help-block uk-text-danger'];
 
 	public $hintOptions = ['class' => 'uk-form-help-block'];    
@@ -32,7 +34,23 @@ class ActiveField extends \yii\widgets\ActiveField
 
     public function checkbox($options = [], $enclosedByLabel = true)
     {
+        $options = array_merge($options, ['class' => 'uk-checkbox']);
+
         return parent::checkbox($options, $enclosedByLabel);
+    }
+
+    public function textarea($options = [])
+    {
+        $options = array_merge($options, ['class' => 'uk-textarea']);
+
+        return parent::textarea($options);
+    }
+
+    public function radio($options = [], $enclosedByLabel = true)
+    {
+        $options = array_merge($options, ['class' => 'uk-textarea']);
+
+        return parent::radio($options, $enclosedByLabel);
     }
 
     public function aliasInput($related, $options = [])
