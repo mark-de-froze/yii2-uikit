@@ -1,12 +1,12 @@
 {
-	"name": "ilyaplot/yii2-uikit",
+	"name": "mark-de-froze/yii2-uikit",
 	"description": "Uikit 3 for Yii2",
 	"keywords": ["yii2", "uikit", "widgets"],
 	"type": "yii2-extension",
 	"license": "MIT",
 	"support": {
-		"source": "https://github.com/ilyaplot/yii2-uikit",
-        "issues": "https://github.com/ilyaplot/yii2-uikit/issues"
+		"source": "https://github.com/mark-de-froze/yii2-uikit",
+        "issues": "https://github.com/mark-de-froze/yii2-uikit/issues"
 	},
 	"authors": [
         {
@@ -16,6 +16,10 @@
 		{
 			"name": "Ilya Plotnikov",
 			"homepage" : "https://github.com/ilyaplot"
+		},
+		{
+			"name": "Mark de Froze",
+			"homepage" : "https://github.com/mark-de-froze"
 		}
 	],
 	"require": {
