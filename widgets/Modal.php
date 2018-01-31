@@ -39,6 +39,8 @@ class Modal extends \yii\bootstrap\Widget
     const SIZE_SMALL = "uk-modal-sm";
     const SIZE_DEFAULT = "";
 
+    public $clientOptions = FALSE;
+    
     /**
      * @var string the header content in the modal window.
      */
@@ -48,13 +50,13 @@ class Modal extends \yii\bootstrap\Widget
      * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
      * @since 2.0.1
      */
-    public $headerOptions = ['class' => 'uk-modal-header'];
+    public $headerOptions = [];
     /**
      * @var array body options
      * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
      * @since 2.0.7
      */
-    public $bodyOptions = ['class' => 'uk-modal-body'];
+    public $bodyOptions = ['class' => 'uk-margin-small-top'];
     /**
      * @var string the footer content in the modal window.
      */
@@ -113,7 +115,7 @@ class Modal extends \yii\bootstrap\Widget
         echo $this->renderToggleButton() . "\n";
         echo Html::beginTag('div', $this->options) . "\n";
         echo Html::beginTag('div', ['class' => 'uk-modal-dialog ' . $this->size]) . "\n";
-        echo Html::beginTag('div', ['class' => 'uk-modal-content']) . "\n";
+        echo Html::beginTag('div', ['class' => 'uk-modal-content uk-modal-body']) . "\n";
         echo $this->renderHeader() . "\n";
         echo $this->renderBodyBegin() . "\n";
     }
@@ -143,7 +145,7 @@ class Modal extends \yii\bootstrap\Widget
             $this->header = $button . "\n" . $this->header;
         }
         if ($this->header !== null) {
-            Html::addCssClass($this->headerOptions, ['widget' => 'uk-modal-header']);
+            //Html::addCssClass($this->headerOptions, ['widget' => 'uk-modal-header']);
             return Html::tag('div', "\n" . $this->header . "\n", $this->headerOptions);
         } else {
             return null;
@@ -175,7 +177,7 @@ class Modal extends \yii\bootstrap\Widget
     protected function renderFooter()
     {
         if ($this->footer !== null) {
-            Html::addCssClass($this->footerOptions, ['widget' => 'uk-modal-footer']);
+            Html::addCssClass($this->footerOptions, ['widget' => 'uk-modal-footer uk-text-right']);
             return Html::tag('div', "\n" . $this->footer . "\n", $this->footerOptions);
         } else {
             return null;
@@ -255,4 +257,5 @@ class Modal extends \yii\bootstrap\Widget
             }
         }
     }
+
 }
